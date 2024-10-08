@@ -41,8 +41,8 @@ def read_process_tif_img(file):
     return process_tif_img(read_tif_img(file))
 
 
-source_dir = "../../Training7/Result/GeneratedProb/1-8/RBF_SVM/output"
-target_dir = "../../Training7/Result/GeneratedLabel/1-8/RBF_SVM"
+source_dir = "./ResultProb"
+target_dir = "./ResultLabel"
 
 #source_dir = "D:/Training7/GeneratedProb/lin1-10/Hybrid_BN_A/output"
 #target_dir = "D:/Training7/PostProcess/lin1-10"
